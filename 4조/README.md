@@ -247,7 +247,12 @@
 
 ## 3. 프로젝트 정리
 
-최종 업무분담
+**프로젝트 과정**
+- 1주차: 데이터 전처리 및 탐색
+- 2주차: 세부적으로 탐색 및 크롤링 시작
+- 3주차: 데이터 시각화 및 주제 확정
+
+**최종 발표자료 업무분담**
 
 김남훈
 - 전체 및 시기별 재생 시간 분석
@@ -280,4 +285,8 @@
 
 
 ## 기타
-[회의록](https://www.notion.so/D-6ae8ea9e906c4734b6c8f6cc2ebcd187)
+[회의록](https://www.notion.so/D-6ae8ea9e906c4734b6c8f6cc2ebcd187)  
+
+[4조 데이터 정리](https://drive.google.com/drive/folders/13QpROiyFB0rp9-KXMUYICSAs-8unJ_Qn?usp=sharing)
+- unique를 포함한 csv는, 데이터에서 video id에 따른 고유값만을 따로 정리한 csv입니다.
+- 일부 data는 불러올 때 pd.read_csv('파일경로',lineterminator='\n')을 작성해야 불러올 수 있습니다.
