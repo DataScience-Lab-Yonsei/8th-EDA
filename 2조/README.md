@@ -21,6 +21,7 @@
        - 목표 설정: 어플의 성공 전략 분석  
        - feature 상관관계 분석: Installs와 Reviews의 상관관계 ↑, 의외로 Installs와 Rating의 상관관계 ↓  
        - 카테고리에 따른 installs 분석  
+         ※Insight: 카테고리별 Installs가 상이한 것은 카테고리마다 특성이 다르다는 것. 카테고리를 나누어 분석해보자!
        - Outlier 제거 후의 installs 분석: 성공률이 높은, 독점시장이 아닌 카테고리 선정
        - 리뷰 데이터 전체에서의 워드클라우드 분석
     
