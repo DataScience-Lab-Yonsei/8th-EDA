@@ -14,7 +14,8 @@
 <br>
 
  
-# 기초세션
+# 2022-Fall-BasicSession
+## 기초세션
 세션 자료는 BasicSession 폴더를 참고해주세요!
 |Date|Topic|Reference|Lecture|Presenter|
 |:---:|:---:|:---:|:---:|:---:|
