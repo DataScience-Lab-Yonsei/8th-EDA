@@ -1,7 +1,40 @@
 # 2조
   
 #### 팀장: 박지호
-#### 팀원: 안세정, 유채원, 이서현, 한예림
+#### 팀원: 안세정, 유채원, 이서현, 한예림  
+## EDA 내용 정리
+
+데이터  
+
+    - 어플 정보 데이터: googleplaystore.csv 
+    - 어플 리뷰 데이터: googleplaystore_user_reviews.csv  
+ 
+데이터 전처리  
+
+    - 결측치 처리  
+    - 문자열 -> 숫자형 변환
+    
+
+기초 분석  
+
+    - 목표 설정: 어플의 성공 전략 분석  
+    - feature 상관관계 분석  
+    - 카테고리에 따른 installs 분석  
+    - Outlier 제거 후의 installs 분석: 성공률이 높은 카테고리 선정
+    - 리뷰 데이터 전체에서의 워드클라우드 분석
+    
+카테고리별 분석  
+    
+    - 분석할 카테고리: Entertainment, Photography, Shopping, Game, Education  
+    1. Entertainment
+      어플 데이터 분석
+       - Installs가 높은 어플 중 무료의 비중이 상대적으로 높다  
+       - 카테고리내의 최저 Installs 값이 상대적으로 높다 -> 망할 확률이 낮다  
+      워드클라우드 분석 
+       - watch, show, ad ↑
+
+
+
 ## 주차별 작업내용  
 ### 1주차:  
 > 안세정
