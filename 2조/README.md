@@ -1,9 +1,8 @@
-GooglePlaysotre
+# GooglePlaysore EDA
 
-<img src = "https://user-images.githubusercontent.com/97828157/182591463-889894ff-f9db-498f-a09f-a026cf8e4201.jpg" width = '200' height = '200>
+<img src = "https://user-images.githubusercontent.com/97828157/182591463-889894ff-f9db-498f-a09f-a026cf8e4201.jpg" width = '200' height = '200'/>
 
-# 2조
-  
+## 2조  
 #### 팀장: 박지호
 #### 팀원: 안세정, 유채원, 이서현, 한예림  
     
