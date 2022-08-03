@@ -14,7 +14,7 @@
 <br>
 
  
-# Basic Session
+# 기초세션
 BasicSession 폴더를 참고해주세요!
 |Date|Topic|Reference|Lecture|Presenter|
 |:---:|:---:|:---:|:---:|:---:|
