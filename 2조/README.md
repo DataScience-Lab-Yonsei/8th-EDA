@@ -1,14 +1,13 @@
-# GooglePlaystore EDA
+# 2조 GooglePlaystore EDA
 
-<img src = "https://user-images.githubusercontent.com/97828157/182591463-889894ff-f9db-498f-a09f-a026cf8e4201.jpg" width = '200' height = '200'/>
-
-## 2조  
 #### 팀장: 박지호
 #### 팀원: 안세정, 유채원, 이서현, 한예림  
-    
 
 발표에 활용된 코드는 code 폴더에 정리되어 있습니다.
   
+<img src = "https://user-images.githubusercontent.com/97828157/182591463-889894ff-f9db-498f-a09f-a026cf8e4201.jpg" width = '200' height = '200'/>
+    
+
 ## EDA 내용 정리
 
 1. 데이터  
