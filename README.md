@@ -15,7 +15,7 @@
 
  
 # 기초세션
-BasicSession 폴더를 참고해주세요!
+자세한 세션 자료는 BasicSession 폴더를 참고해주세요!
 |Date|Topic|Reference|Lecture|Presenter|
 |:---:|:---:|:---:|:---:|:---:|
 |220712|Git Numpy|[Github](https://github.com/DataScience-Lab-Yonsei/8th_EDA/tree/main/BasicSession/220712%20Git%20Numpy)|[Youtube](https://youtu.be/PEpr2JIrm8Y)<br>[Youtube](https://youtu.be/PlCipcjNflk)|7기 전재현<br>7기 전혜령|
