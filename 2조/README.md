@@ -11,29 +11,73 @@
  
 데이터 전처리  
 
-    - 결측치 처리  
-    - 문자열 -> 숫자형 변환
-    
+    - 결측치 drop  
+    - 문자열 -> 숫자형 변환 
+
 
 기초 분석  
 
     - 목표 설정: 어플의 성공 전략 분석  
-    - feature 상관관계 분석  
+    - feature 상관관계 분석: Installs와 Reviews의 상관관계 ↑, 의외로 Installs와 Rating의 상관관계 ↓  
     - 카테고리에 따른 installs 분석  
-    - Outlier 제거 후의 installs 분석: 성공률이 높은 카테고리 선정
+    - Outlier 제거 후의 installs 분석: 성공률이 높은, 독점시장이 아닌 카테고리 선정
     - 리뷰 데이터 전체에서의 워드클라우드 분석
     
 카테고리별 분석  
     
-    - 분석할 카테고리: Entertainment, Photography, Shopping, Game, Education  
+    - 선정된 카테고리 분석: Entertainment, Photography, Shopping, Game, Education 
+    
     1. Entertainment
       어플 데이터 분석
        - Installs가 높은 어플 중 무료의 비중이 상대적으로 높다  
-       - 카테고리내의 최저 Installs 값이 상대적으로 높다 -> 망할 확률이 낮다  
-      워드클라우드 분석 
+       - 카테고리내의 최저 Installs 값이 상대적으로 높다 -> 망할 확률이 낮다
+       
+      리뷰 데이터 분석(워드 클라우드)
        - watch, show, ad ↑
+    
+    2. Photography
+      리뷰 데이터 분석(워드 클라우드)
+       - Installs 상위권 어플의 'video'가 많고 중위권에는 'ad'가 많다
+    
+    3. Shopping 
+      리뷰 데이터 분석(워드 클라우드)
+       - Installs 상위권 어플의 경우 'groupon', 'deal', 'price' 가 많다
+    
+    4. Game  
+      어플 데이터 분석
+      - 평균 Installs vs Outlier를 제거한 평균 Installs 비교: 감소폭이 작은 편
+        -> 유행이 빠르다는 게임 카테고리의 특성상 독점이 덜할 것임 
+      - 연령 제한에 따른 평균 Installs 분석: 10세이상, 전연령, 성인 순으로 높음
+        -> 어린아이를 위한 전연령의 게임보다는 약간의 자극이 있는 게임이 높아보임
+      - 어플의 용량 분석: Installs가 높을수록 어플의 용량이 큼
+        -> 고사양의 게임, 많은 컨텐츠를 담기위해선 큰 용량 필요
+       
+      
+    5. Education
+       어플 데이터 분석
+       - 다른 어플들과 다르게 Rating과 Installs간의 상관관계 ↑
+         -> 평점 관리도 중요한 카테고리라고 추측 가능
+         
+       리뷰 데이터 분석(워드클라우드)
+       - 'learn', 'langauge', 'another language' ↑ 
+         -> 어플의 사용목적이 언어인 경우가 많고 다른 언어의 버전을 원하는 리뷰가 많음
 
+결론 정리  
 
+    1. 추천 카테고리: 독점시장이 아니면서 성공률(Installs)이 높은 카테고리
+      
+      Entertainment, Photography, Shopping, Game, Education
+      
+    2. 추천 카테고리별 전략 
+       1) Entertainment: 영상 시청이 주
+                         팝업 광고 자제
+                         실시간 방송에 참여시키는 등 다른 방법으로 수익 창출 추천
+       ) Photography:    전통적인 사진 편집 이외의 비디오 편집
+                         팝업 광고 자제
+                                         
+                         
+
+        
 
 ## 주차별 작업내용  
 ### 1주차:  
