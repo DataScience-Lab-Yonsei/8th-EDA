@@ -1,4 +1,4 @@
-# GooglePlaysore EDA
+# GooglePlaystore EDA
 
 <img src = "https://user-images.githubusercontent.com/97828157/182591463-889894ff-f9db-498f-a09f-a026cf8e4201.jpg" width = '200' height = '200'/>
 
