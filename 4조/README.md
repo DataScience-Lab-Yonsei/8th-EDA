@@ -288,5 +288,5 @@
 [회의록](https://www.notion.so/D-6ae8ea9e906c4734b6c8f6cc2ebcd187)  
 
 [4조 데이터 정리](https://drive.google.com/drive/folders/13QpROiyFB0rp9-KXMUYICSAs-8unJ_Qn?usp=sharing)
-- unique를 포함한 csv는, 데이터에서 video id에 따른 고유값만을 따로 정리한 csv입니다.
-- 일부 data는 불러올 때 pd.read_csv('파일경로',lineterminator='\n')을 작성해야 불러올 수 있습니다.
+- unique를 포함한 csv는, 데이터에서 video id에 따른 고유값만을 따로 정리한 csv
+- 일부 data는 불러올 때 pd.read_csv('파일경로',lineterminator='\n')을 작성해야 불러올 수 있음
